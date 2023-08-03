@@ -1,23 +1,10 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 {
- // Name this configuration
-"name": "Codespace for Skills!",
-// Use the base codespace image
-"image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
-
-"remoteUser": "codespace",
-"overrideCommand": false
-,
-// Add the IDs of extensions you want installed when the container is created.
-"customizations": {
-    "vscode": {
-        "extensions": [
-            "GitHub.copilot"
-        ]
-    },
-    "codespaces": {
-        "openFiles": [
-            "codespace.md"
-        ]
-    }
-}
+    // Name this configuration
+    "name": "Codespace for Skills!",
+    // Use the base codespace image
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
   
+    "remoteUser": "codespace",
+    "overrideCommand": false
+  }
